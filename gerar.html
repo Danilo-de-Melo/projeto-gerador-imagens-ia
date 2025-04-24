@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerar Imagem</title>
+  <link rel="stylesheet" href="estilo/estilos.css" />
+  <style>
+    .form-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .form-container h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .form-container .intro-text {
+      font-size: 1.1em;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .form-container input[type="text"],
+    .form-container button {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1em;
+    }
+
+    .form-container input[type="text"] {
+      width: 60%;
+      max-width: 400px;
+      margin-bottom: 15px;
+    }
+
+    .form-container button {
+      background-color: #0072ff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .imagem-gerada img {
+      margin-top: 30px;
+      max-width: 90%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-minimal">
+    <div class="container">
+      <h1>Geração Criativa - Gerar Imagem</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="gerar.html">Gerar Imagem</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="form-container">
+    <h2>Descreva a Imagem</h2>
+    <p class="intro-text">Aqui vamos gerar sua imagem!!</p>
+    <form action="#">
+      <input type="text" name="descricao" placeholder="Descrição da imagem" required />
+      <br />
+      <button type="submit">Gerar</button>
+    </form>
+    <div class="imagem-gerada">
+      <img src="https://picsum.photos/800/500?" alt="Imagem gerada" />
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Geração Criativa</p>
+    <p>Email: geracaocriativa@gmail.com</p>
+    <p>Instagram: <a href="#">@geracaocriativa</a></p>
+    <p>Discord: <a href="#">discord.gg/geracaocriativa</a></p>
+  </footer>
+</body>
+</html>
